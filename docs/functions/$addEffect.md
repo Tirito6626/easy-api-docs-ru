@@ -1,11 +1,11 @@
 # $addEffect
-Apply an effect to the canvas context.
+Добавляет эффект к контексту холста.
 
 ### использование:
 ```js
 $addEffect[эффект; качество пременения]
 ```
-### Effects:
+### эффекты:
 - **`blur`** размытие по гаусу. Если поставить  `0` то ничего не изменится.
 - **`brightness`** Applies a linear multiplier to the drawing, making it appear brighter or darker. Если поставить `100` то ничего не изменится .
 - **`contrast`** Adjusts the contrast of the drawing. A value of `100` leaves the drawing unchanged.
