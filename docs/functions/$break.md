@@ -1,9 +1,9 @@
 # $break
-Breaks the next code.
+Обрывает чтение кода.
 
-### Example:
+### пример:
 ```js
-$log[hi] // this don't will be executed
+$log[hi] // это не ввполнится
 $break
-$log[this will be executed]
+$log[это было выполнено]
 ```
