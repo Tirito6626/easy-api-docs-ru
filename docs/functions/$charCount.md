@@ -1,12 +1,12 @@
 # $charCount
-Get a text length (letters).
+Выдает кол-во символов текста.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| text        | String      | The text to get the letters count.   | false    |
-
-### Example:
+### использование:
 ```js
-$charCount[Wow] // 3
+$charCount[текст]
+```
+
+### пример:
+```js
+$charCount[ку] // 2
 ```
