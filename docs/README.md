@@ -1,12 +1,11 @@
-# EASY-API.TS
-Make your own API with ease.
+### EASY-API.TS
+Создайте свой собственный API с легкостью.
+![изображение](https://i.imgur.com/upR5GuS.png)
 
-![image](https://i.imgur.com/upR5GuS.png)
-
-## Easy setup
+## настройка апи
 
 ```js
-import { API } from "easy-api.ts"; // use 'const { API } = require("easy-api.ts")' for JavaScript
+import { API } from "easy-api.ts"; //используйте 'const { API } = require("easy-api.ts")' для JavaScript
 
 const api = new API({
     port: process.env.PORT || 3000
@@ -15,31 +14,30 @@ const api = new API({
 api.routes.add({
     path: '/color',
     code: `
-    $ignore[Check docs to see how does functions work]
+    $ignore[Посмотрите документацию для того чтобы узнать как работает эта функция]
     $send[200;canvas;$default]
     $drawRect[0;0;512;512]
     $color[$getQuery[hex]]
     $createCanvas[512;512]
     $if[$isValidHex[$getQuery[hex]]==false;400;{
-        error: "Invalid hex code provided."
+        error: "Вы ввели неправильный hex цвет"
     }]
     $if[$getQuery[hex]==undefined;400;{
-        error: "Missing 'hex' parameter."
+        error: "Не обнаружен hex параметр."
     }]
     `
 })
 
-// Lets load the handler...
+// Используйте загрузчик...
 api.routes.load('./routes').then(() => {
-    console.log('Source loaded.')
-    api.connect() // We're connecting to the API when the source is loaded.
+    console.log('АПИ загружено.')
+    api.connect() // Мы подключаемся к API, когда все загрузилось.
 })
 ```
 
-## You must know...
-- You need node **>=14**
-- The code start reading from bottom to the top.
-- This is a wrapper of express extended with custom functions like canvas.
-- This can contain some bugs (report it).
-- This is package can be used in JavaScript (use const instead import) and TypeScript
-- We'd like you to join our support server.
+## Вы должны знать...
+- Для использования вам нужен Nodejs версия которого выше или равна 14
+- Код читается снизу вверх.
+- Это оболочка express, расширенная пользовательскими функциями, такими как канвас, объекты, HTML и подобные.
+- У библиотеки есть баги.(отправь репорт если нашел)
+- Эта библиотека была сделана используя JavaScript и TypeScript.
