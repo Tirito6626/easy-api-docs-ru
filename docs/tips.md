@@ -1,12 +1,12 @@
-# Tips
+# Советы
 
-Useful tips to improve your coding experience.
+Полезные советы для улучшения вашего опыта кодирования.
 
-## Handler
+## обработчик
 
-Load the routes with a handler.
+Загрузите маршруты с обработчиком.
 
-**Example (Setup):**
+**Пример (установка):**
 ```js
 import { API } from "easy-api.ts";
 
@@ -17,7 +17,7 @@ api.routes.load('./routes').then(() => {
 })
 ```
 
-**Example (route):**
+**пример (маршрут):**
 ```js
 // path: './routes/../../../route.js'
 module.exports = {
@@ -34,11 +34,11 @@ module.exports = {
 }
 ```
 
-## Using database
+## использования базы данных.
 
-Save, get and delete variables from the database.
+Сохранение, получение и удаление переменных из базы данных.
 
-**Example (Setup):**
+**пример (настройка):**
 ```js
 import { API } from "easy-api.ts";
 
@@ -54,19 +54,19 @@ const api = new API({
 api.connect()
 ```
 
-**Functions:**
+**Функции:**
 
-`$deleteVar[var name]` [docs here.](functions/$deleteVar.md)
+`$deleteVar[var name]` [доки здесь.](functions/$deleteVar.md)
 
-`$getVar[var name]` [docs here.](functions/$getVar.md)
+`$getVar[var name]` [доки здесь.](functions/$getVar.md)
 
-`$setVar[var name;value]` [docs here.](functions/$setVar.md)
+`$setVar[var name;value]` [доки здесь.](functions/$setVar.md)
 
-## Adding your own function
+## Создание своей функции
 
-Add your own function using the `<API>.interpreter` class.
+Добавьте свою собственную функцию, используя класс `<API>.interpreter`.
 
-**Example:**
+**Пример:**
 ```js
 import { API, FunctionBuilder, Utils } from "easy-api.ts";
 
