@@ -1,15 +1,13 @@
 # $addEffect
 Apply an effect to the canvas context.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| effect      | String      | The effect name to apply.            | false    |
-| number      | Number      | How many pixels/percentage.          | false    |
-
+### использование:
+```js
+$addEffect[эффект; качество пременения]
+```
 ### Effects:
-- **`blur`** Applies a Gaussian blur to the drawing. A value of `0` leaves the input unchanged.
-- **`brightness`** Applies a linear multiplier to the drawing, making it appear brighter or darker. A value of `100` leaves the input unchanged.
+- **`blur`** размытие по гаусу. Если поставить  `0` то ничего не изменится.
+- **`brightness`** Applies a linear multiplier to the drawing, making it appear brighter or darker. Если поставить `100` то ничего не изменится .
 - **`contrast`** Adjusts the contrast of the drawing. A value of `100` leaves the drawing unchanged.
 - **`grayscale`** Converts the drawing to grayscale. A value of `100` is completely grayscale. A value of `0` leaves the drawing unchanged.
 - **`invert`** Inverts the drawing. A value of `100` means complete inversion. A value of `0` leaves the drawing unchanged.
@@ -18,9 +16,9 @@ Apply an effect to the canvas context.
 
 > [`CanvasRenderingContext2D/filter`](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter)
 
-> 💡: Remove the effect using [`$removeEffect`](functions/$removeEffect.md)
+> 💡: Удаление эффекта смотри здесь [`$removeEffect`](functions/$removeEffect.md)
 
-### Example:
+### пример:
 ```js
 ...
 $addEffect[grayscale;50]
