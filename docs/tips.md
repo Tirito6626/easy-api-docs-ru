@@ -22,10 +22,7 @@ api.routes.load('./routes').then(() => {
 // path: './routes/../../../route.js'
 module.exports = {
     path: '/endpoint/name',
-    details: {
-        description: 'Anything',
-        more_X_keys: 'anything'
-    },
+
     code: `
     $send[200;json;{
         success: true
@@ -36,7 +33,7 @@ module.exports = {
 
 ## использования базы данных.
 
-Сохранение, получение и удаление переменных из базы данных.
+Сохранение, получение и удаление переменных из базы данны
 
 **пример (настройка):**
 ```js
