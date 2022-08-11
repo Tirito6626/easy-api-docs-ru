@@ -1,18 +1,22 @@
-# Escapers
-Read this information to prevent some errors in your codes.
+# Символы
 
-### How does 'Escapers' works?
-Those 'variables/escapers' will be replaced in our code to the specified value, like so: **`@semi`** => **`;`**
+ Прочитайте эту информацию, чтобы предотвратить некоторые ошибки в ваших кодах.
 
-In aoi.js they are defined like: **`#ANYTHING#`**
+### Как работают «Символы»?
 
-### Example
+ Эти «переменные/знаки» будут заменены в нашем коде на указанное значение, например: **`@semi`** => **`;`**
+
+ В aoi.js они определены как: #ANYTHING#
+
+
+
+### Пример
 ```js
 @semi) => ;)
 ```
 
-### List
-| Symbol       | Replacement |
+### Список
+| Символ   | Замена |
 | ------------ | ----------- |
 | **@left**    | ]           |
 | **@right**   | [           |
