@@ -1,12 +1,11 @@
 # $isNumber
-Check if the text provided is a valid number.
+Проверяет число это или нет и выдает логические ответы true/false.
 
-### Parameters:
-| Name        | Type        | Description                         | Optional |
-| ----------- | ----------- | ------------------------------------| -------- |
-| text        | String      | The text to check if its a number.  | false    |
-
-### Example:
+### использование:
+```
+$IsNumber[число или что то другое]
+```
+### пример:
 ```js
 $isNumber[2.4] // true
 $isNumber[0] // true
