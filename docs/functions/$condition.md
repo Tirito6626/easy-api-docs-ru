@@ -1,38 +1,38 @@
 # $condition
-Check a condition, it will return 'true' if the condition is true
-or 'false' if the condition is false
+Проверяет условие, если выводит 'true', то условие верно, если 'false', то условие ложное.
 
 
-### Parameters:
-| Name | Type | Description | Optional |
-| ---- | ---- | ------------| --------- |
-| condition | String | The condition to check| false |
 
-### Example:
-
-```js
-$condition[x==1] // Returns: true
-$condition[x==2] // Returns: false
-
-/* If x is equal to 1, it returns true and if 1 is different from x, it returns false. */
-
-
-// Other examples:
-$condition[1==1] // Returns: true
-$condition[a!=b] // Returns: true
-$condition[3>=5] // Returns: false
-$condition[a==b||c==c] // Returns: true
-$condition[2<3&&3==3] // Returns: true
+### Использование:
+```
+$condition[условие]
 ```
 
-### Conditionals:
+### Пример:
+
 ```js
-== // Equal
-!= // Different
-> // Higher
-< // Lower
->= // Higher or equal
-<= // Lower or equal
-&& // And
-|| // Or
+$condition[x==1] // Выводит: true
+$condition[x==2] // Выводит: false
+
+/* Если x ровняется 1, оно выводит true, и если 1 отличается от x, оно выводит false. */
+
+
+// Остальные примеры:
+$condition[1==1] // Выводит: true
+$condition[a!=b] // Выводит: true
+$condition[3>=5] // Выводит: false
+$condition[a==b||c==c] // Выводит: true
+$condition[2<3&&3==3] // Выводит: true
+```
+
+### Условные выражения:
+```js
+== // Равно
+!= // Отличается
+> // Больше
+< // Меньше 
+>= // Больше или равно
+<= // Меньше или равно
+&& // и
+|| // или
 ```
