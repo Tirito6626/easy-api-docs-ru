@@ -1,21 +1,17 @@
 # $drawImage
-Draws an image in a canvas.
+Рисует картинку на холсте.
 
-### Parameters:
-| Name     | Type      | Description            | Optional |
-| -------- | --------- | ---------------------- | -------- |
-| id       | String    | The loaded image id.   | false    |
-| x        | Number    | X image position.      | false    |
-| y        | Number    | Y image position.      | false    |
-| width    | Number    | Image width.           | false    |
-| height   | Number    | Image height.          | false    |
+### Использование:
+```
+$drawImage[айди картинки;x позиция;y позиция;ширина;высота]
+```
 
-> **You need to load an image first using [`$loadImage`](functions/$loadImage)**
+> **Вам нужно загрузить картинку используя [`$loadImage`](functions/$loadImage)**
 
-### Example:
+### Пример:
 
 ```js
 $drawImage[myCoolId;0;0;512;512]
-$loadImage[myCoolId;https://i.imgur.com/upR5GuS.png] // required to use this function
-$createCanvas[512;512] // required to use this function
+$loadImage[myCoolId;https://i.imgur.com/upR5GuS.png] // Нужно для использования данной функции.
+$createCanvas[512;512] // Нужно для использования данной функции
 ```
