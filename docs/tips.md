@@ -42,7 +42,7 @@ import { API } from "easy-api.ts";
 const api = new API({
     port: process.env.PORT || 3000,
     database: {
-        enabled: true, // VERY IMPORTANT TO ENABLE IT!!
+        enabled: true, // ОЧЕНЬ ВАЖНАЯ СТРОЧКА (ХД ТАК И НАПИСАНО)!!
         type: 'replit', // You can use: 'replit' | 'default' | 'mongo'
         // mongoUrl: '...'
     }
