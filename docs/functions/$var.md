@@ -1,14 +1,12 @@
 # $var
-Set a new local variable value.
+Изменяет значение переменной локально.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The variable name to get the value.  | false    |
-| value       | String      | The value this variable will have.   | false    |
-
-### Example:
+### использование:
+```
+$var[название; значение]
+```
+### пример:
 ```js
-// now you can get the value using $get
+// Теперь мы можем использовать $get
 $var[test;ok]
 ```
