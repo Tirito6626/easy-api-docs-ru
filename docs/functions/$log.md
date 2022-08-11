@@ -1,12 +1,11 @@
 # $log
-Check if the text provided is a valid number.
+Отправляет текст в консоль.
 
-### Parameters:
-| Name        | Type        | Description                         | Optional |
-| ----------- | ----------- | ----------------------------------- | -------- |
-| text        | String      | The text to log in the console.     | false    |
-
-### Example:
+### использование:
+```js
+$log[текст/функции]
+```
+### пример:
 ```js
 $log[Hello]
 ```
