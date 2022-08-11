@@ -1,18 +1,14 @@
 # $font
 Set the canvas font.
 
-### Parameters:
-| Name      | Type        | Description             | Optional    |
-| --------- | ----------- | ------------------------| ----------- |
-| size      | Number      | The font size (pixels). | false       |
-| family    | String      | The font family (name). | true        |
-| style     | String      | The font style.         | true        |
-
-> 💡: **You can use the [`$registerFont`](functions/$registerFont.md) to register custom fonts.**
-
-### Example:
+### использованние:
 ```js
-$drawText[...] // This text will be 'bold 30px Arial'
-$font[30;Arial;bold]
+$font[размер;название шрифта]
+> 💡: **Ты можешь использовать [`$registerFont`](functions/$registerFont.md) для регистрации кастом шрифтов.**
+
+### пример:
+```js
+$drawText[...] // Текст будет 'размер - 30px шрифт - Arial'
+$font[30;Arial]
 $createCanvas[512;512]
 ```
