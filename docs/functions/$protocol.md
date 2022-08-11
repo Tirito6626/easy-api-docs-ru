@@ -1,7 +1,7 @@
 # $protocol
-Returns the protocol.
+Показывает используемый протокол.
 
-### Example:
+### пример:
 ```js
 $protocol // http or https
 ```
