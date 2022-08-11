@@ -1,14 +1,14 @@
 # $deleteObjectKey
-Delete a key value from a created object.
+Удаляет ключ из созданного объекта.
 
-### Parameters:
-| Name      | Type                | Description                        | Optional |
-| --------- | ------------------- | ---------------------------------- | -------- |
-| name | String              | Name of the key value you want to delete . | false |
+### Использование:
+```
+$deleteObjectKey[имя ключа]
+```
 
-### Example:
+### Пример:
 ```js
-$deleteObjectKey[hello] // will delete that key from the object, Final: { start: 'hiii' }
+$deleteObjectKey[hello] // удалит этот ключ из объекта, Итог: { start: 'hiii' }
 $setObjectKey[hello;hi]
 $setObjectKey[start;hiii]
 $createObject
