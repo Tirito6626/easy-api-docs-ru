@@ -1,17 +1,16 @@
 # $deleteVar
-Delete a variable from the database.
+Удаляет переменную из датабазы.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The variable name to delete.         | false    |
+### Использование:
+```
+$deleteVar[имя переменной]
 
-### Example:
+### Пример:
 ```js
-$getVar[hi] // undefined
+$getVar[hi] // неизвестно 
 $deleteVar[hi]
 $getVar[hi] // ok
 $setVar[hi;ok]
 ```
 
-> ⚠: You need to setup the database to use this function. Check [tips](tips.md?id=using-database)
+> ⚠: Вам нужно установить датабазу для использования этой функции. Посмотрите [tips](tips.md?id=using-database)
