@@ -1,12 +1,13 @@
 # $encodeURI
-Encode a text to URI components.
+Кодирует текст URI компонентов.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| text        | String      | The text to encode.                  | false    |
+### Использование:
+```
+$encodeURI[текст]
+```
 
-### Example:
+
+### Пример:
 ```js
-$encodeURI[Hello lol, hru?] // Hello%20lol%2C%20hru%3F
+$encodeURI[Привет, как дела?] // Привет%20lol%2C%20hru%3F
 ```
