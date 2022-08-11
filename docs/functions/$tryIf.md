@@ -1,21 +1,19 @@
 # $tryIf
-Try an internal code if a condition is true.
+Выполняет код если условие верное.
+Обычный иф=)
+### использование:
+```
+$tryIf[условие;код]
+```
+> **Правильный синтаксис:** `@function(inside;more;splits)`
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| condition   | String      | The condition to check.              | false    |
-| code        | String      | The internal code.                   | false    |
+> **Пример:** `@send(200;json;{})`
 
-> **INTERNAL CODE SYNTAX:** `@function(inside;more;splits)`
-
-> **EXAMPLE:** `@send(200;json;{})`
-
-### Example:
+### пример:
 ```js
 $tryIf[$getQuery[image]==undefined;
     @break
-    @ignore(Now we're breaking it to stop executing the above code (outside tryIf).)
+    @ignore(перестанет исполнять код (из за $tryIf,т.к он в конце кода).)
     @log(There is not provided image.)
     @send(400;json;{
         error: 'Missing image.'
