@@ -1,12 +1,12 @@
 # $color
-Set the canvas context color.
+Устанавливает цвет заднего фона канваса.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| hex        | String      | The hexadecimal code color to set the context color.  | false    |
+### Использование:
+ ```
+ $color[hex]
+```
 
-### Example:
+### Пример:
 ```js
-$color[#303132] // The color context will be gray.
+$color[#303132] // Цвет заднего фона будет серым.
 ```
