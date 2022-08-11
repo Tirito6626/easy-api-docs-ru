@@ -1,12 +1,10 @@
 # $math
-Calculate a math operation.
+Выполняет математические действия.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| operation   | String      | The math operation to calculate.     | false    |
-
-### Example:
+### использование:
+```js
+$math[операция]
+### пример:
 ```js
 $math[2 * 3] // 6
 ```
