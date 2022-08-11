@@ -1,8 +1,8 @@
 # $createObject
-Create an object to be edited later
+Создаёт объект который мы можем изменить позже.
 
 
-### Example:
+### Пример:
 ```js
 $createObject
 ```
