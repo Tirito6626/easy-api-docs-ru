@@ -1,15 +1,12 @@
 # $createCanvas
-Create a new canvas instance.
+Создаёт новый холст.
 
-### Parameters:
-| Name     | Type      | Description            | Optional |
-| -------- | --------- | ---------------------- | -------- |
-| width    | Number    | The canvas width.      | false    |
-| height   | Number    | The canvas height.     | false    |
-
-### Example:
+### Использование:
+```
+$createCanvas[ширина;высота]
+### Пример:
 
 ```js
-$ignore[now we can edit that canvas using more functions]
-$createCanvas[512;512] // we're creating a new canvas
+$ignore[Теперь мы можем изменять холст многими функциями!]
+$createCanvas[512;512] // Мы создаём новый холст
 ```
