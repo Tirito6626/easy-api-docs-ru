@@ -9,5 +9,6 @@ $encodeURI[текст]
 
 ### Пример:
 ```js
-$encodeURI[Привет, как дела?] // Привет%20lol%2C%20hru%3F
+$encodeURI[Hello, hru?] // Выводит: 
+hello%2C%20hru%3F
 ```
