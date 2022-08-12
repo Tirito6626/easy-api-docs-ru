@@ -1,13 +1,11 @@
 # $jsEval
-Evaluate a javascript code.
+использует javascript код.
 
-### Parameters:
-| Name      | Type                | Description                            | Optional |
-| --------- | ------------------- | -------------------------------------- | -------- |
-| return    | Boolean             | Choose to return the code or not.      | false    |
-| code      | String              | The js code you are going to evaluate. | false    |
-
-### Example:
+### использование:
+```js
+$jsEval[возвращать?;код]
+```
+### пример:
 ```js
 $jsEval[true;
 const hi = "Hello world"
