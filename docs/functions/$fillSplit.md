@@ -1,17 +1,16 @@
 # $fillSplit
-Replace a split element with something.
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| element     | String      | Element of the split.        | false    |
-| something   | String      | Something to replace the element.         | true    |
+Заменяет сплит-элемент на что-то.
+### Использование:
+```
+$fillSplit[элемент;текст?]
+```
 
 ### Example:
 ```ts
-/* $fillSplit[element;something?] */
 
-$joinSplits[|] // hello|yes|ok
-$fillSplit[bye;yes]
-$textSplit[hello|bye|ok;|]
+
+$joinSplits[|] // привет|да|ок
+$fillSplit[пока;да]
+$textSplit[привет|пока|ок;|]
 ```
 
