@@ -1,12 +1,11 @@
 # $ignore
-Just ignore this code lol.
+простотигнорит аргумент внутри него, используй для коментариев или заметок.
 
-### Parameters:
-| Name          | Type        | Description                         | Optional |
-| ------------- | ----------- | ----------------------------------- | -------- |
-| text          | Any         | Anything you want to have there.    | false    |
+### использование:
+```
+$ignore[текст]
 
-### Example:
+### пример:
 ```js
-$ignore[you can save notes or anything here without being executed lol]
+$ignore[можете использовать для комментариев]
 ```
