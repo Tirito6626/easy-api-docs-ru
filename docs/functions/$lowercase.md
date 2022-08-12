@@ -1,12 +1,11 @@
 # $lowercase
-Convert a string to lowercase.
+конвертирует текст в нижний регистр.
 
-### Parameters:
-| Name | Type | Description | Optional |
-| ---- | ---- | ----------- | -------- | 
-| text | String | The text to convert to lowercase| false |
-
-### Example:
+### использование:
+```
+$lowercase[текст]
+```
+### пример:
 
 ```js
 $lowercase[HELLO] // hello
