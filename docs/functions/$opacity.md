@@ -1,14 +1,13 @@
 # $opacity
-Change the canvas context opacity.
+изменяет прозрачность текста на холсте.
 
-### Parameters:
-| Name     | Type      | Description              | Optional |
-| -------- | --------- | ------------------------ | -------- |
-| opacity  | Number    | The new context opacity. | false    |
+### использование:
+```
+$opacity[значение]
+```
+> **значение может быть от `1` до `100`**
 
-> **The opacity must be between `1` and `100`**
-
-### Example:
+### пример:
 
 ```js
 $drawImage[image;0;0;512;512] // this image will be with 50% opacity.
