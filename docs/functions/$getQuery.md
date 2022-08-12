@@ -1,10 +1,10 @@
 # $getQuery
-Get a query parameter value.
+Получает значение параметра запроса.
 
-### Parameters:
-| Name        | Type        | Description | Optional |
-| ----------- | ----------- | ----------- | -------- |
-| name        | String      | The parameter name. | false |
+### Использование:
+```
+$getQuory[параметр]
+```
 
 ### Example:
 ```js
