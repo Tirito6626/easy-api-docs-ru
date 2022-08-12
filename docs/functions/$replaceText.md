@@ -1,14 +1,11 @@
 # $replaceText
-Replace something in the text with another thing.
+Заменяет слова из текста.
 
-### Parameters:
-| Name        | Type        | Description                             | Optional |
-| ----------- | ----------- | --------------------------------------- | -------- |
-| source      | String      | The source text to do the replacements. | false    |
-| text        | String      | The text to replace in the source.      | false    |
-| replacement | String      | The replacement to use.                 | false    |
-
-### Example:
+### использование:
+```
+$replaceText[текст;что надо будет заменить;на что надо заменить]
+```
+### пример:
 ```js
 $replaceText[Hello xd bye!;xd;haha] // Hello haha bye!
 ```
