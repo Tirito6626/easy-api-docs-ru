@@ -1,15 +1,15 @@
 # $getObjectKey
-Get the value of a property.
+Получает значение свойства.
 
-### Parameters:
-| Name      | Type                | Description                            | Optional |
-| --------- | ------------------- | -------------------------------------- | -------- |
-| name      | String              | The name of the value you want to get. | false    |
+### Использование:
+```
+$getObjectKey[имя объекта]
+```
 
 ### Example:
 ```js
-$getObjectKey[text] // return: Hello
+$getObjectKey[text] // выводит: Hello
 
-$setObjectKey[text;Hello] // required to use this function 
-$createObject // required to use this function 
+$setObjectKey[text;Hello] // нужно для использования данной функции  
+$createObject // Нужно для использования данной функции
 ```
