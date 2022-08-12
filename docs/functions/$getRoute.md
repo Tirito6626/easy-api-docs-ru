@@ -1,17 +1,16 @@
 # $getRoute
-Get a route property
+Получает значение путя
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| property    | String      | The property from route to get.      | false    |
+### Использование:
+```
+$getRoute[опция]
 
-**Endpoint template example:**
+**Пример эндпоинта:**
 ```js
 module.exports = {
     path: '/myendpoint',
     details: {
-        description: 'This is my endpoint description lol',
+        description: 'Это описание лол',
         usage: '?text=String'
     },
     code: `...`
@@ -21,6 +20,6 @@ module.exports = {
 ### Example:
 ```js
 $getRoute[/myendpoint;path] // /myendpoint
-$getRoute[/myendpoint;details.description] // This is my endpoint description lol
+$getRoute[/myendpoint;details.description] // Это описание лрл
 $getRoute[/myendpoint;details.usage] // ?text=String
 ```
