@@ -1,12 +1,12 @@
 <!-- docs/_sidebar.md -->
 
-- **Getting started**
+- **Начало**
 
-* [Home](/)
-* [Tips](tips.md)
-* [Escapers](escapers.md)
+* [Главная страница](/)
+* [Советы](tips.md)
+* [Символы](escapers.md)
 
-- **Functions**
+- **Функции**
 
 * [$addEffect](functions/$addEffect.md)
 * [$break](functions/$break.md)
