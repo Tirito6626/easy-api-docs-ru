@@ -1,10 +1,10 @@
 # $getPath
-Get a path parameter.
+Получает параметр путя.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| param       | String      | The param in the path to get.        | false    |
+### Использование:
+```
+$getPath[параметр]
+```
 
 ### Example:
 ```js
@@ -12,7 +12,7 @@ module.exports = {
     path: '/users/:id',
     code: `
     $send[200;json;{
-        text: 'The id is $getPath[id]'
+        text: 'Айди: $getPath[id]'
     }]
     `
 }
