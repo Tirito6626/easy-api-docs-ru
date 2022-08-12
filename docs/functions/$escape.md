@@ -1,20 +1,20 @@
 # $escape
-Escape a text.
+Превращает текст в "знаки"
 
-> **This function was made to prevent bugs**
+> **Эта функция была сделана для предотвращения багов**
 
-### Parameters:
-| Name          | Type        | Description                         | Optional |
-| ------------- | ----------- | ----------------------------------- | -------- |
-| text          | String      | The text to escape.                 | false    |
-
-### Example:
-```js
-$condition[$escape[==]==$escape[==]] // => '@equal@equal==@equal@equal' (true)
-$condition[======] // This can't be used.
-
-$condition[$escape[<:v]==$escape[<;v]] // => '@lower@colonv==@lower@semiv' (true)
-$condition[<:v==<;v] // This can't be used.
+### Использование:
+```
+$escape[текст]
 ```
 
-> Check escaperps in: **[escapers](escapers.md)**
+### Пример:
+```js
+$condition[$escape[==]==$escape[==]] // => '@equal@equal==@equal@equal' (Правда)
+$condition[======] // Это не может быть использовано.
+
+$condition[$escape[<:v]==$escape[<;v]] // => '@lower@colonv==@lower@semiv' (Правда)
+$condition[<:v==<;v] // Это не может быть использовано.
+```
+
+> Посмотрите знаки в: **[Знаки](escapers.md)**
