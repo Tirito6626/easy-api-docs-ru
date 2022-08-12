@@ -1,13 +1,13 @@
 # $get
-Get a local variable value.
+Получает значение локальной переменной.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The variable name to get the value.  | false    |
+### Использование:
+```
+$get[имя переменной]
+```
 
-### Example:
+### Пример:
 ```js
 $get[test] // ok
-$var[test;ok] // required to use this function
+$var[test;ok] // нужно для использования данной функции.
 ```
