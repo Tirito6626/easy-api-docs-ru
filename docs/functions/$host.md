@@ -1,8 +1,8 @@
 # $host
-Returns the hostname
+выдает имя хоста
 
 ### Example:
 ```js
-$host // localhost if you are in your local host lol
-$host // api.miduwu.ga if you have a custom domain
+$host // локальный хост 
+$host // api.miduwu.ga если у тебя кастом домен
 ```
