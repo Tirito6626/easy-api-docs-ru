@@ -1,13 +1,11 @@
 # $randomNumber
-Get a random number between two numbers.
+выдает рандомное число в указанных приделах.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| min         | Number      | The min number.                      | false    |
-| max         | Number      | The max number.                      | false    |
-
-### Example:
+### использование:
 ```js
-$randomNumber[1;5] // 3
+$randomNumber[минимум;максимум]
+```
+### пример:
+```js
+$randomNumber[1;5] // будет рандом число =)
 ```
