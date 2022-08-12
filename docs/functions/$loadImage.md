@@ -1,15 +1,13 @@
 # $loadImage
-Loads an image and save id as an ID.
-
-### Parameters:
-| Name          | Type        | Description                           | Optional |
-| ------------- | ----------- | ------------------------------------- | -------- |
-| id            | String      | The image ID.                         | false    |
-| type          | String      | Type (path \| link)                    | false    |
-| body          | String      | The image URL or path depending type. | false    |
-
-### Example:
+загружает и сохраняет изображение в индексе,Для одного кода!.
+path - локально
+link - дистанционно
+### использование:
 ```js
-$loadImage[myPathImg;path;./image.png] // for local images.
-$loadImage[myUrlImg;link;https://...] // for remote images.
+$loadImage[id;path/link;путь]
+```
+### пример:
+```js
+$loadImage[myPathImg;path;./image.png] // для локальных изображений.
+$loadImage[myUrlImg;link;https://...] // для дистанционного изображения.
 ```
