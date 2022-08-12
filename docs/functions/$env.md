@@ -1,11 +1,10 @@
 # $env
-Get an enviorement variable value (You need to authorize that).
+Получает значение переменной из environment  (Вам нужно авторизировать это).
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| key         | String      | Het a key to the enviorement.        | false    |
-| authorization  | Boolean      | Your authorization (true).        | false    |
+### Использование:
+```
+$env[ключ environment;авторизация]
+```
 
 ### Example:
 ```ts
