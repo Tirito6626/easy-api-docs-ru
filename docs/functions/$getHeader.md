@@ -1,13 +1,13 @@
 # $getHeader
-Get a header value from the http request (to the api, not $request).
+Получает значение коллнтинула из http запроса (до апи, не $request).
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The header name.                     | false    |
+### Использование:
+```
+$getHeader[имя колонтинула]
+```
 
 ### Example:
 ```js
-$ignore[You can use this to set keys system]
+$ignore[Вы можете использовать это для "ключей" системы]
 $getHeader[Authorization] // d372dhfjhjka
 ```
