@@ -1,13 +1,13 @@
 # $getSplit
-Get a split element from the splitted text.
+Получает элемент из разделённого текста.
 
-### Parameters:
-| Name          | Type        | Description                         | Optional |
-| ------------- | ----------- | ----------------------------------- | -------- |
-| index         | Number      | The element position.               | false    |
+### Использование:
+```
+$getSplit[позиция элемента]
+```
 
 ### Example:
 ```js
-$getSplit[2] // bye
-$split[hello|bye|ok;|] // required to use this function
+$getSplit[2] // пока
+$split[привет|пока|ок;|] // Нужно для использования данной функции 
 ```
