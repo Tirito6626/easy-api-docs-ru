@@ -1,12 +1,11 @@
 # $random
-Select a random field from provided.
+выбирает рандом текст из написанных вами целей.
 
-### Parameters:
-| Name         | Type           | Description                     | Optional    |
-| ------------ | -------------- | ------------------------------- | ----------- |
-| choices      | ...String      | The choices to get some random. | false       |
-
-### Example:
+### использование:
+```js
+$random[цели]
+```
+### пример:
 
 ```js
 $random[one;two;three;four;five;six;seven;eight;nine;ten;eleven] // six
