@@ -1,12 +1,11 @@
 # $uppercase
-Convert a string to uppercase.
+конвертирует текст в верхний регистр.
 
-### Parameters:
-| Name | Type | Description | Optional |
-| ---- | ---- | ------------| -------- |
-| text | String | The text to convert to uppercase | false |
-
-### Example:
+### использование:
+```
+$uppercase[текст]
+```
+### пример:
   
 ```js
 $uppercase[hello] // HELLO
