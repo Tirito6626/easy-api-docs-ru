@@ -6,7 +6,7 @@
 $env[ключ environment;авторизация]
 ```
 
-### Example:
+### Пример:
 ```ts
 $env[superSecretKey;true]
 ```
