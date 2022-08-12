@@ -1,13 +1,11 @@
 # $repeat
-Repeat a text X times.
+повторяет текст указанное кол-во раз.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| text        | String      | The text to repeat.                  | false    |
-| times       | Number      | The times to repeat that text.       | false    |
-
-### Example:
+### использование:
+```js
+$repeat,[текст;кол-во раз]
+```
+### пример:
 ```js
 $repeat[yo;3] // yoyoyo
 ```
