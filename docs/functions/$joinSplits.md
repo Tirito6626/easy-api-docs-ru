@@ -1,5 +1,5 @@
 # $joinSplits
-Get the splits elements in a separator.
+Get the splits elements in a separator
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
