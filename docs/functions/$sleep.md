@@ -1,5 +1,5 @@
 # $sleep
-Await a process.
+Await a process
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
