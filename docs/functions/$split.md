@@ -1,5 +1,5 @@
 # $split
-Splits a text using a separator.
+Splits a text using a separator
 
 ### Parameters:
 | Name          | Type        | Description                              | Optional |
