@@ -1,5 +1,5 @@
 # $ternary
-Checks a condition then return a result depending the fields provided.
+Checks a condition then return a result depending the fields provided
 
 ### Parameters:
 | Name        | Type        | Description                                   | Optional |
