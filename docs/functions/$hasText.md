@@ -1,5 +1,5 @@
 # $hasText
-Check if a code has a text.
+Check if a code has a text
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
