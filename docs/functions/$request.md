@@ -1,6 +1,6 @@
 # $request
 
- Make an http request.
+ Make an http request
 
 ### Parameters:
 | Name | Type | Description | Optional |
