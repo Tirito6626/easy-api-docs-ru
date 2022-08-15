@@ -1,5 +1,5 @@
 # $splitsCount
-Get the splits count (from $split).
+Get the splits count (from $split)
 
 ### Example:
 ```js
