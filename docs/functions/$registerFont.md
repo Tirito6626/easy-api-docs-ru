@@ -1,5 +1,5 @@
 # $registerFont
-Register a custom font from a path.
+Register a custom font from a path
 
 ### Parameters:
 | Name         | Type     | Description                        | Optional    |
