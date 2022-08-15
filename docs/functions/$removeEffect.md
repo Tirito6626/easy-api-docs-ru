@@ -1,5 +1,5 @@
 # $removeEffect
-Remove the current canvas context.
+Remove the current canvas context
 
 ### Example:
 ```js
