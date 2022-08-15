@@ -1,5 +1,5 @@
 # $slice
-Get a part from a text.
+Get a part from a text
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
