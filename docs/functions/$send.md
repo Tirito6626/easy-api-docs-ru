@@ -1,5 +1,5 @@
 # $send
-Send something to the http response.
+Send something to the http response
 
 ### Parameters:
 | Name          | Type               | Description                                                     | Optional |
