@@ -1,5 +1,5 @@
 # $setObjectKey
-Set a key value to the created object.
+Set a key value to the created object
 
 ### Parameters:
 | Name | Type | Description | Optional |
