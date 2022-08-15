@@ -1,5 +1,5 @@
 # $trim
-Trims a text (remove unnecesary spaces [extras]).
+Trims a text (remove unnecesary spaces [extras])
 
 ### Parameters:
 | Name     | Type      | Description            | Optional |
