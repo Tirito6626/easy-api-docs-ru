@@ -1,5 +1,5 @@
 # $root
-Join a root into the main runner.
+Join a root into the main runner
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
