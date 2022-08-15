@@ -1,5 +1,5 @@
 # $getVar
-Get a variable value from the database.
+Get a variable value from the database
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
