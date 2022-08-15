@@ -1,5 +1,5 @@
 # $isImage
-Check if an image ID was loaded.
+Check if an image ID was loaded
 
 ### Parameters:
 | Name          | Type        | Description                             | Optional |
