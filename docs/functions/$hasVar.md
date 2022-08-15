@@ -1,5 +1,5 @@
 # $hasVar
-Check if there is a variable in the database.
+Check if there is a variable in the database
 
 ### Parameters:
 | Name        | Type        | Description                          | Optional |
