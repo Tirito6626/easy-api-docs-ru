@@ -1,5 +1,5 @@
 # $isValidHex
-Check if a text is a valid hex color code.
+Check if a text is a valid hex color code
 
 ### Parameters:
 | Name      | Type        | Description              | Optional    |
