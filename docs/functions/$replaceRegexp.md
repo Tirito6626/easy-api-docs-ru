@@ -1,5 +1,5 @@
 # $replaceRegexp
-Replace something using RegExp.
+Replace something using RegExp
 
 ### Parameters:
 | Name          | Type        | Description                         | Optional |
