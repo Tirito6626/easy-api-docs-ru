@@ -1,10 +1,10 @@
 # $getVar
-Get a variable value from the database
+Получает значение переменной из датабазы.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The variable name to get.            | false    |
+### Использование:
+```
+$getVar[имя переменной]
+```
 
 ### Example:
 ```js
@@ -12,4 +12,4 @@ $getVar[hi] // ok
 $setVar[hi;ok]
 ```
 
-> ⚠: You need to setup the database to use this function. Check [tips](tips.md?id=using-database)
+> ⚠: Вам нужно установить базу данных для использованию этой функции.. Проверьте [советы](tips.md?id=using-database)
