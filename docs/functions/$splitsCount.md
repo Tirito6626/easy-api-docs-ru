@@ -1,7 +1,7 @@
 # $splitsCount
-Get the splits count (from $split)
+Получает количество разделений (из $split)
 
-### Example:
+### Пример:
 ```js
 $splitsCount // 2
 $split[hi|bye;|]
