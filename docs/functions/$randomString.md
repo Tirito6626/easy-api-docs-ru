@@ -1,12 +1,11 @@
 # $randomString
-Generate a random string.
+Генерирует строчку из случайных символов
 
-### Parameters:
-| Name        | Type        | Description                | Optional |
-| ----------- | ----------- | -------------------------- | -------- |
-| length      | Number      | The random string length.  | false    |
-
-### Example:
+### Использование:
+```
+$randomString[длина]
+```
+### Пример
 ```js
 $randomString[5] a4g9b
 ```
