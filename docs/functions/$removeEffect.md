@@ -1,10 +1,10 @@
 # $removeEffect
-Remove the current canvas context
+Удаляет текущий эффект на холсте
 
-### Example:
+### Пример:
 ```js
 $removeEffect
-$ignore[more things here...]
+
 $addEffect[blur;40]
 $createCanvas[512;512]
 ```
