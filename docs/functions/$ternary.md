@@ -1,17 +1,14 @@
 # $ternary
-Checks a condition then return a result depending the fields provided
+Проверяет указанное условие, и затем исполняет код
 
-### Parameters:
-| Name        | Type        | Description                                   | Optional |
-| ----------- | ----------- | --------------------------------------------- | -------- |
-| condition   | String      | The condition to check.                       | false    |
-| ifTrue      | Any         | Anything to return if the condition is true.  | false    |
-| ifFalse     | Any         | Anything to return if the condition is false. | false    |
-
-### Example:
+### Использование:
+```
+$ternary[условие;если правдивое;если ложное]
+```
+### Пример:
 ```js
-$ternary[$get[b]==true||$get[b]==false;true;false] // false, it is not boolean!
-$ternary[$get[a]==true||$get[a]==false;true;false] // true, it is boolean!
+$ternary[$get[b]==true||$get[b]==false;true;false] // Ложь, оно не равно!
+$ternary[$get[a]==true||$get[a]==false;true;false] // Правда, оно равно!
 $var[b;yes]
 $var[a;true]
 
