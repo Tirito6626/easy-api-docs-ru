@@ -1,14 +1,13 @@
 # $sleep
-Await a process
+Ожидает процесс
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| miliseconds | Number      | The time to wait                 .   | false    |
-
-### Example:
+### Использование:
+```
+$sleep[милисекунды]
+```
+### Пример:
 ```js
-$log[This will be logged after 20 seconds L]
+$log[Это будет записано через 20 секунд]
 $sleep[$math[20 * 1000]]
-$log[ok starting]
+$log[Начинаем]
 ```
