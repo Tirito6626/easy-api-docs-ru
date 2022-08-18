@@ -1,14 +1,12 @@
 # $slice
-Get a part from a text
+Получает часть текста
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| text        | String      | The source text.                     | false    |
-| from        | Number      | The number to start.                 | false    |
-| to          | Number      | The number to finish.                | true     |
+### Использование:
+```
+$slice[текст;от;до?]
+```
 
-### Example:
+### Пример:
 ```js
 $slice[Hello;2] // ello
 $slice[Hello;3;4] // ll
