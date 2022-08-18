@@ -1,15 +1,15 @@
 # $isImage
-Check if an image ID was loaded
+Проверяет загрузилось ли айди картинки.
 
-### Parameters:
-| Name          | Type        | Description                             | Optional |
-| ------------- | ----------- | --------------------------------------- | -------- |
-| id            | String      | The image id you saved with $loadImage. | false    |
+### Использование:
+```
+$isImage[айди картинки]
+```
 
 ### Example:
 ```js
 $isImage[secondId] // false
 $isImage[myId] // true
-$loadImage[secondId;hello]
-$loadImage[myId;https://myimage.png] // required to use this function
+$loadImage[secondId;Привет]
+$loadImage[myId;https://myimage.png] // Нужно для использования данной функции 
 ```
