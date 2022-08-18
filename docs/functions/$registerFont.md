@@ -1,19 +1,18 @@
 # $registerFont
-Register a custom font from a path
+Регистрирует кастомный шрифт из заданного путя
 
-### Parameters:
-| Name         | Type     | Description                        | Optional    |
-| ------------ | -------- | ---------------------------------- | ----------- |
-| path         | String   | The font file location.            | false       |
-| family       | String   | The font family to register (name) | false       |
+### Использование:
+```
+$registerFont[путь;имя шрифта]
+```
 
-> ⚠️: **Allowed font formats: `.ttf`, `.otf`**
+> ⚠️: **Разрешённые типы файлов: `.ttf`, `.otf`**
 
 ### Example:
 
 ```js
 $drawText[...]
-$font[30;Any name] // Now we can use it
+$font[30;Any name] // Теперь мы можем использовать это
 $createCanvas[512;512]
-$registerFont[./assets/myfont.ttf;Any name] // We register it with a custon name
+$registerFont[./assets/myfont.ttf;Any name] // Мы регистрируем шрифт со своим именем
 ```
