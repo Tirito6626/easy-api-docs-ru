@@ -1,13 +1,12 @@
 # $hasText
-Check if a code has a text
+Проверяет есть ли в коде указанный текст.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| source      | String      | The source text.                     | false    |
-| text        | String      | The text to check.                   | false    |
+### Использование:
+```
+$hasText[весь текст;указанный текст]
+```
 
-### Example:
+### Пример:
 ```js
-$hasText[hello world;hello] // true
+$hasText[Привет мир;Привет] // true
 ```
