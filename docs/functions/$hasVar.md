@@ -1,17 +1,17 @@
 # $hasVar
-Check if there is a variable in the database.
+Проверяет есть ли переменная в базе данных.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| name        | String      | The variable name to check.            | false    |
-
-### Example:
-```js
-$hasVar[Test] // true
-$setVar[Test;Hello]
+### Использование:
+```
+$hasVar[имя переменной]
 ```
 
-> ⚠: You need to setup the database to use this function. Check [tips](tips.md?id=using-database)
+### Пример:
+```js
+$hasVar[Тест] // true
+$setVar[Тест;Привет]
+```
+
+> ⚠: Вам нужно установить базу данных для использования данной функции. Посмотрите [советы](tips.md?id=using-database)
 
 
