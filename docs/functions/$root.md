@@ -1,13 +1,13 @@
 # $root
-Join a root into the main runner
+Входит в рут используя главный загручик.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| ...parts    | ...String   | The parts of a root.                 | false    |
+### Использование:
+```
+$root[части]
+```
 
 ### Example:
 ```js
-// If the process cwd is '/homme/runner/'
-$root[assets;backgrounds;file.png] // will return: '/home/runner/assets/backgrounds/file.png'
+// Если процесс '/homme/runner/'
+$root[assets;backgrounds;file.png] // Выводит: '/home/runner/assets/backgrounds/file.png'
 ```
