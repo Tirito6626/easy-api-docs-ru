@@ -1,13 +1,13 @@
 # $joinSplits
-Get the splits elements in a separator
+Получает сплит-элементы через символ
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| separator   | String      | Separator to join the splits.        | false    |
+### Использование:
+```
+$joinSplits[символ]
+```
 
-### Example:
+### Пример:
 ```js
-$joinSplits[ - ] // hello - bye - ok
-$textSplit[hello|bye|ok;|]
+$joinSplits[ - ] // привет - пока - ок
+$textSplit[привет|пока|ок;|]
 ```
