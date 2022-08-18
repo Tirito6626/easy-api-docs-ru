@@ -1,12 +1,12 @@
 # $trim
-Trims a text (remove unnecesary spaces [extras])
+Удаляет лишние пробелы
 
-### Parameters:
-| Name     | Type      | Description            | Optional |
-| -------- | --------- | ---------------------- | -------- |
-| text     | String    | The text to trim.      | false    |
+### Использование:
+```
+$trim[текст]
+```
 
-### Example:
+### Пример:
 
 ```js
 $trim[   Hello world hehe xd   ] // Hello world hehe xd
