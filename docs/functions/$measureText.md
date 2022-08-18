@@ -1,28 +1,26 @@
 # $measureText
-Measure the text with the actual canvas context settings.
+Измеряет текст по заданным параметрам.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| text        | String      | The text to measure.  | false    |
-| type        | String      | The type to get (width/height/object).   | false    |
-
-### Example:
+### Использование:
+```
+$measureText[Текст для измерения;параметр (width/height/object)]
+```
+### Пример:
 ```js
-$drawText[Hello;...]
+$drawText[Привет;...]
 $font[50;Arial]
-$createCanvas[$get[width];$get[height]] // now we're creating a corresponding canvas with the text size
+$createCanvas[$get[width];$get[height]] // Теперь мы создали холст по размерам нашего текста
 
 $let[height;$measureText[Hello;height]]
 $let[width;$measureText[Hello;width]]
-$font[50;Arial] // Setting up the font size to measure it
-$createCanvas[10;10] // not an important canvas, we're creating one to set up the text settings.
+$font[50;Arial] // Устанавливаем размер текста, который измерим
+$createCanvas[10;10] // Необязательный холст, мы сделаем новый холст
 ```
 
-**If the type is `object` then it will return something like:**
+**Если тип `object` то оно выведет по типу:**
 ```json
 {
-    "width": number,
-    "height": "number
+    "width": число,
+    "height": число
 }
 ```
