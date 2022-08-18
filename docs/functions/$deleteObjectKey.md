@@ -3,13 +3,14 @@
 
 ### Использование:
 ```
-$deleteObjectKey[имя ключа]
+$deleteObjectKey[имя ключей]
 ```
 
 ### Пример:
 ```js
 $deleteObjectKey[hello] // удалит этот ключ из объекта, Итог: { start: 'hiii' }
-$setObjectKey[hello;hi]
-$setObjectKey[start;hiii]
-$createObject
+$createObject[{
+"hello":"hi",
+"start":"hiii"
+}]
 ```
