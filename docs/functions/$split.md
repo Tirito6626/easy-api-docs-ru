@@ -1,14 +1,12 @@
 # $split
-Splits a text using a separator
+Разделяет текст через символ
 
-### Parameters:
-| Name          | Type        | Description                              | Optional |
-| ------------- | ----------- | ---------------------------------------- | -------- |
-| text          | String      | Text to separate using the separator.    | false    |
-| separator     | String      | The separator in the text to split.      | false    |
-
-### Example:
+### Использование:
+```
+$split[текст;символ]
+```
+### Пример:
 ```js
-$getSplit[3] // this function will get the element from a position in the splits
-$split[Hello|bye|ok;|] // this only splits the text
+$getSplit[3] // Данная функция берёт разделённый текст по позиции
+$split[Hello|bye|ok;|] // это разделяает текст
 ```
