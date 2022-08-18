@@ -1,48 +1,45 @@
 # $request
 
- Make an http request
+Производит http запрос.
 
-### Parameters:
-| Name | Type | Description | Optional |
-| ---- | ---- | ----------- | -------- |
-|  url | String | The link to make the request. | false |
-| config | Record<string, any> | The config object (see below). | true |
-| headers | ...String:string | The headers fields. | true |
-
-### Config prototype:
+### Использование:
+```
+$request[ссылка;конфиг(смотрите ниже)?;хэадеры?]
+```
+### Пример конфига:
 ```json
 {
-    method: string, // the request method (see axios docs)
-    logError?: boolean, // if some errors happens it will log to the console
-    data?: any // the body (like for http POST requests)
+    method: string, // метод запроса (GET/POST)
+    logError?: boolean, // если в консоли будет ошибка
+    data?: any // Дата (Для POST запросов)
 }
 ```
 
-### Example:
+### Пример:
 
 ```js
-// GET method:
+// GET метод:
 $request[https://api.miduwu.ga/json/calendar]
 
-// POST method:
+// POST метод:
 $request[https://anylink;{
     method: 'POST',
-    data: 'anything to post, this also can be a JSON.'
+    data: 'любой текст для запроса, может быть так-же json'
 }]
 
-// POST method (with headers):
+// POST метод (с хэадерами) 
 $request[https://anylink;{
     method: 'POST',
     data: 'anything'
 };headerName:headerValue;headerName2:headerValue2]
 ```
-> 💡: You can use [**`$getData`**](/functions/$getData.md) function to get the data from this request.
+> 💡: Вы можете использовать [**`$getData`**](/functions/$getData.md) для вывода данных запроса
 
-### TIP: You can send logs with Discord Webhooks:
+### TIP: Вы можете отправлять логи с дискорд вебхуками: Новый запрос!
 ```
 $request[https://discord.com/api/v9/webhooks/:id/:token;{
     method: 'POST',
-    data: { content: 'New request!', embeds: [{title: 'A new request!', description: 'In /endpoint'}] },
+    data: { content: 'Новый запрос!', embeds: [{title: 'Новый запрос!', description: 'В /endpoint'}] },
     logError: true
 }]
 ```
