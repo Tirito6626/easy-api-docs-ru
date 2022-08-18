@@ -1,21 +1,19 @@
 # $timeout
-Set the max timeout for this route and the JSON response.
+Устанавливает максимальное время ожидания для роута "route" и JSON ответа.
 
-### Parameters:
-| Name        | Type        | Description                          | Optional |
-| ----------- | ----------- | ------------------------------------ | -------- |
-| miliseconds | Number      | The max timeout for this route.      | false    |
-| status      | Number      | The status for the response when timeout.   | false    |
-| response    | Record<string, any> | The JSON response to send when timeout. | false |
+### Использование:
+```
+$timeout[количество милисекунд;статус;ответ JSON]
+```
 
-### Example:
+### Пример:
 ```js
-$send[wrong fields] // this will give an error
+$send[wrong fields] // Это выдаст ошибку
 
-// so this will set the max timeout, if there isnt a response after that time then it will reply this
+//Через 30 секунд оно выдаст ошибку
 $timeout[$parseTime[30s];500;{
     "error": "Something internal went wrong"
 }]
 ```
 
-!> Learn how to use **$parseTime** clicking: [here](functions/$parseTime.md)
+!> Посмотрите как использовать **$parseTime** нажав: [here](functions/$parseTime.md)
