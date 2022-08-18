@@ -4,5 +4,5 @@
 
 ### Пример:
 ```js
-$createObject
+$createObject[json?]
 ```
