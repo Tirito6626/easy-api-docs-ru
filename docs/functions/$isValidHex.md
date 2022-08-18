@@ -1,12 +1,11 @@
 # $isValidHex
-Check if a text is a valid hex color code
+Проверяет имеет ли текст верный цвет HEX.
 
-### Parameters:
-| Name      | Type        | Description              | Optional    |
-| --------- | ----------- | ------------------------ | ----------- |
-| text      | String      | The possible color code. | false       |
-
-### Example:
+### Использование:
+```
+$isValidHex[текст]
+```
+### Пример:
 ```js
 $isValidHex[#040E20] // true
 $isValidHex[white] // false
