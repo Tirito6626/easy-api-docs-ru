@@ -1,14 +1,12 @@
 # $setObjectKey
-Set a key value to the created object
+Устанавливает ключевое значение для объекта
 
-### Parameters:
-| Name | Type | Description | Optional |
-| ---- | ---- | ----------- | -------- |
-| name | String | The property name. | false | 
-| value | Any | The value of this property. | false |
-
-### Example:
+### Использование:
+```
+$setObjectKey[имя;значение]
+```
+### Пример:
 ```js
 $setObjectKey[text;hello] 
-$createObject // required to use this function
+$createObject // Нужно для использования данной функции
 ```
