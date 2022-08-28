@@ -6,7 +6,7 @@
 $getQuory[параметр]
 ```
 
-### Example:
+### Пример:
 ```js
 // http://localhost:port/route?text=Hello
 $getQuery[text] // Hello
