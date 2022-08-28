@@ -17,7 +17,7 @@ module.exports = {
 }
 ```
 
-### Example:
+### Пример:
 ```js
 $getRoute[/myendpoint;path] // /myendpoint
 $getRoute[/myendpoint;details.description] // Это описание лрл
