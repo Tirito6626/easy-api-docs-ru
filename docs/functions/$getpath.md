@@ -6,7 +6,7 @@
 $getPath[параметр]
 ```
 
-### Example:
+### Пример:
 ```js
 module.exports = {
     path: '/users/:id',
