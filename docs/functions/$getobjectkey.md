@@ -6,7 +6,7 @@
 $getObjectKey[имя объекта]
 ```
 
-### Example:
+### Пример:
 ```js
 $getObjectKey[text] // выводит: Hello
 
