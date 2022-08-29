@@ -5,7 +5,6 @@
 ```
 $getVar[имя переменной]
 ```
-
 ### Example:
 ```js
 $getVar[hi] // ok
