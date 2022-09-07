@@ -13,7 +13,7 @@ import { API } from "easy-api.ts";
 const api = new API({...})
 
 api.routes.load('./routes').then(() => {
-    api.connect() // We're starting the API when the source is ready.
+    api.connect() // Мы запускаем АПИ когда всё готово.
 })
 ```
 
@@ -42,7 +42,7 @@ import { API } from "easy-api.ts";
 const api = new API({
     port: process.env.PORT || 3000,
     database: {
-        enabled: true, // ОЧЕНЬ ВАЖНАЯ СТРОЧКА (ХД ТАК И НАПИСАНО)!!
+        enabled: true, // Активирует датабазу
         type: 'replit', // Вы можете использовать: 'replit' | 'default' | 'mongo'
         // mongoUrl: '...'
     }
@@ -83,7 +83,7 @@ api.interpreter.addFunction({
 
 api.connect()
 ```
-### эффекты:
+### Эффекты:
 - **`blur`** размытие по гаусу. Если поставить  `0` то ничего не изменится.
 - **`brightness`** Применяет линейный множитель к чертежу, делая его ярче или темнее. Если поставить `100` то ничего не изменится .
 - **`contrast`** Регулировка контрастности рисунка. Значение `100` оставляет рисунок без изменений.
