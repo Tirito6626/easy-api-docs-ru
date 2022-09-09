@@ -8,7 +8,7 @@
 
 - **Функции**
 
-* [$addEffect](functions/$addeffect.md)
+* [$addeffect](functions/$addeffect.md)
 * [$break](functions/$break.md)
 * [$charCount](functions/$charcount.md)
 * [$color](functions/$color.md)
