@@ -7,7 +7,7 @@
 * [Символы](escapers.md)
 
 - **Функции**
-
+* [$abbreviateNumber](functions/$abbreviatenumber.md)
 * [$addeffect](functions/$addeffect.md)
 * [$break](functions/$break.md)
 * [$charCount](functions/$charcount.md)
